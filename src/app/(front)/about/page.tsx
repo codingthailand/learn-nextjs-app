@@ -7,6 +7,7 @@ export default function AboutPage() {
   return (
     <div>
       <p className="text-sky-500 mb-4">About Us</p>
+      <p>API Key: {process.env.API_KEY}</p>
       <Spinner />
       <hr />
       <Button variant="outline">
